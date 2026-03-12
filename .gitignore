@@ -1,0 +1,21 @@
+# Rust build output
+rust/target/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Benchmark result files (optionally commit these)
+bench/results_python.json
+bench/results_rust.json
+bench/report.md
+
+# Editors / OS
+.DS_Store
+.venv/
+*.swp
+EOF
